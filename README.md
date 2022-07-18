@@ -4,7 +4,7 @@
 
 `useJsonFetch` is a custom hook that helps to make http-requests using `fetch`
 
-Thats how you suppose to use `useJsonFetch`.
+That is how you suppose to use `useJsonFetch`.
 
 ```javascript
 const [data, loading, error] = useJsonFetch(url, opts);
@@ -14,7 +14,7 @@ Test urls to check the hook:
 
 - GET http://localhost:7070/data - success
 - GET http://localhost:7070/error - error 500
-- GET http://localhost:7070/loading - loading
+- GET http://localhost:7070/loading - loading and then success
 
 To do so you'll also need to use `npm run start` on the `backend` dirrectory.
 
